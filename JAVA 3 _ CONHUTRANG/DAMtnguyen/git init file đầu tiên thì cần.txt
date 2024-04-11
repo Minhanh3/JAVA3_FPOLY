@@ -1,0 +1,5 @@
+git init file đầu tiên thì cần 
+git remote 
+git add .
+git commit -m"messge "
+git push origin master

@@ -1,0 +1,9 @@
+git init 
+git status để check những file chưa được đưa lên hoặc đã thay đổi trong thư mục
+Tiếp theo ta add những file cần đưa lên github ta dùng git add
+-Để kiểm tra mình đã add thành công hay chưa các bạn gõ git status lại để check (ở đây mình không check nha)
+
+Tiếp theo các bạn gõ lệnh git commit -m "Add new project food" . Lệnh này dùng để note lại các thay đổi để dễ dàng theo dõi nhe.
+-Kế tiếp các bạn gõ lệnh git branch -M main
+-Sau đó các bạn gõ lệnh git remote add origin https://github.com/minhkhacoder/food.git (lưu ý đừng link là trên trang Github lúc đầu các bạn tạo repository không phải đừng link trong bài viết này)
+-Cuối cùng các bạn gõ lệnh git push -u origin main để đưa code lên Github
